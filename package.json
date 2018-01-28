@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-standard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A standard Renovate config",
   "repository": {
     "type": "git",
