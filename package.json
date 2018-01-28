@@ -1,0 +1,23 @@
+{
+  "name": "renovate-config-standard",
+  "version": "0.0.0",
+  "description": "A standard Renovate config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/renovate-config-standard.git"
+  },
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/renovate-config-standard/issues"
+  },
+  "homepage": "https://github.com/kellyselden/renovate-config-standard#readme",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":preserveSemverRanges"
+      ]
+    }
+  }
+}
