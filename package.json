@@ -16,7 +16,8 @@
     "default": {
       "extends": [
         "config:base",
-        ":preserveSemverRanges"
+        ":preserveSemverRanges",
+        ":maintainLockFilesMonthly"
       ]
     }
   }
