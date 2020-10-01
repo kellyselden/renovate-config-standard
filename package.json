@@ -16,14 +16,12 @@
     "default": {
       "extends": [
         "config:base",
-        ":preserveSemverRanges",
-        {
-          "lockFileMaintenance": {
-            "extends": "schedule:monthly",
-            "automerge": true
-          }
-        }
-      ]
+        ":preserveSemverRanges"
+      ],
+      "lockFileMaintenance": {
+        "extends": "schedule:monthly",
+        "automerge": true
+      }
     }
   }
 }
