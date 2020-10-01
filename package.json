@@ -17,8 +17,7 @@
       "extends": [
         "config:base",
         ":preserveSemverRanges",
-        ":maintainLockFilesMonthly",
-        ":disableRateLimiting"
+        ":maintainLockFilesMonthly"
       ]
     }
   }
