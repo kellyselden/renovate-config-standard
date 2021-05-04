@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-standard",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "A standard Renovate config",
   "repository": {
     "type": "git",
@@ -19,7 +19,9 @@
         ":preserveSemverRanges"
       ],
       "lockFileMaintenance": {
-        "extends": ["schedule:monthly"],
+        "extends": [
+          "schedule:monthly"
+        ],
         "automerge": true
       }
     }
