@@ -19,7 +19,7 @@
         ":preserveSemverRanges"
       ],
       "lockFileMaintenance": {
-        "extends": "schedule:monthly",
+        "extends": ["schedule:monthly"],
         "automerge": true
       }
     }
