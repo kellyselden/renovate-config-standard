@@ -19,6 +19,7 @@
         ":preserveSemverRanges"
       ],
       "lockFileMaintenance": {
+        "enabled": true,
         "extends": [
           "schedule:monthly"
         ],
