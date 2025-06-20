@@ -17,7 +17,8 @@
       "extends": [
         "config:base",
         ":preserveSemverRanges",
-        ":maintainLockFilesMonthly"
+        ":maintainLockFilesMonthly",
+        ":separateMajorReleases"
       ],
       "lockFileMaintenance": {
         "automerge": true
