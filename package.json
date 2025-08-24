@@ -25,9 +25,8 @@
       },
       "packageRules": [
         {
-          "matchPackageNames": [
-            "node"
-          ],
+          "matchManagers": ["github-actions"],
+          "matchPackageNames": ["actions/setup-node"],
           "allowedVersions": "<22"
         }
       ]
