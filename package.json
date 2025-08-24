@@ -1,6 +1,6 @@
 {
   "name": "renovate-config-standard",
-  "version": "2.4.0",
+  "version": "2.4.1",
   "description": "A standard Renovate config",
   "repository": {
     "type": "git",
@@ -25,8 +25,12 @@
       },
       "packageRules": [
         {
-          "matchManagers": ["github-actions"],
-          "matchPackageNames": ["actions/setup-node"],
+          "matchManagers": [
+            "github-actions"
+          ],
+          "matchPackageNames": [
+            "actions/setup-node"
+          ],
           "allowedVersions": "<22"
         }
       ]
