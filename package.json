@@ -29,7 +29,7 @@
             "github-actions"
           ],
           "matchPackageNames": [
-            "actions/setup-node"
+            "actions/node-versions"
           ],
           "allowedVersions": "<22"
         }
