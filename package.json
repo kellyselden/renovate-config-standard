@@ -22,7 +22,13 @@
       ],
       "lockFileMaintenance": {
         "automerge": true
-      }
+      },
+      "packageRules": [
+        {
+          "matchPackageNames": ["node"],
+          "allowedVersions": "<22"
+        }
+      ]
     }
   }
 }
