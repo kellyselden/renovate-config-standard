@@ -1,0 +1,23 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":preserveSemverRanges",
+    ":maintainLockFilesMonthly",
+    ":separateMultipleMajorReleases",
+  ],
+  "lockFileMaintenance": {
+    "automerge": true,
+  },
+  "packageRules": [
+    {
+      "matchManagers": [
+        "github-actions",
+      ],
+      "matchPackageNames": [
+        "actions/node-versions",
+      ],
+      "allowedVersions": "<22",
+    },
+  ],
+}
