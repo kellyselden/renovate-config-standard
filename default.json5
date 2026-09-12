@@ -17,7 +17,7 @@
       "matchPackageNames": [
         "actions/node-versions",
       ],
-      "allowedVersions": "<22",
+      "allowedVersions": "<24",
     },
   ],
 }
