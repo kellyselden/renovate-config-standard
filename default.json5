@@ -15,10 +15,7 @@
         "github-actions",
       ],
       "matchPackageNames": [
-        "node",
-      ],
-      "matchDepTypes": [
-        "uses-with",
+        "actions/node-versions",
       ],
       "allowedVersions": "<24",
     },
